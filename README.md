@@ -1,5 +1,5 @@
 # ECUArdu.ino
-A simple script I realized to see my engine coolant temperature on a '09 Ford Fiesta Mk7 using:
+A simple sketch I realized to see my engine coolant temperature on a '09 Ford Fiesta Mk7 using:
 - Arduino Uno
 - Bluetooth HC-05 Serial Module
 - An OBD2 Bluetooth Module
