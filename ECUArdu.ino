@@ -87,7 +87,7 @@ void setup() {
 
 void loop()
 {
-  // Voce "Temperatura Motore" sul display
+  //"Temperatura Motore" on display
   lcd.setCursor(0, 0);
   lcd.print("--------FORD--------");
   lcd.setCursor(0,1);
@@ -96,7 +96,7 @@ void loop()
 
   BuildINString = "";
 
-  BTSerial.println("0105");  // Sends PID 0105 (Engine Coolant Temperature) to the ECU
+  BTSerial.println("0105");  //Sends PID 0105 (Engine Coolant Temperature) to the ECU
   // BTSerial.flush();       //idk if it's useful, i'll try
   delay(1000);
 
@@ -116,7 +116,7 @@ void loop()
   lcd.print("-------FIESTA-------");
   delay(500);
 
-//Controlla se sia sopra i 100 C ******************************************************
+//Control if it's over 100 C ******************************************************
   int B;
   B = DisplayString.toInt();  //string to integer
 
