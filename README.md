@@ -7,7 +7,8 @@ A simple sketch I realized to see my engine coolant temperature on a '09 Ford Fi
 
 The script is universal, it could be used on every car running an OBD2 diagnostic port.
 
-
+Connection Diagram:
+![image](https://user-images.githubusercontent.com/65445719/157099476-2dd856e9-3c0d-4fc2-bc7f-e06f3da71e77.png)
 
 
 The final result:
